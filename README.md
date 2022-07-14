@@ -102,3 +102,36 @@ function deploySimpleContract(bytes32 salt) public {
 ```
 
 ## Deploy and test this smart contract
+
+To test it, we can deploy this contract on the Goerli testet using remix. First of all, we'll need to have a Goerli endpoint to use in MetaMask. 
+
+We can, of course, do this with [Chainstack](https://chainstack.com/)! You can deploy nodes on mainets and testnets on many EVM protocols.
+
+### Deploy a node on Chainstack 
+
+Follow these steps to sign up on Chainstack, deploy a node, and find your endpoint credentials:
+
+1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create).
+1. [Deploy a node](https://docs.chainstack.com/platform/join-a-public-network).
+1. [View node access and credentials](https://docs.chainstack.com/platform/view-node-access-and-credentials).
+
+After you have access to your Goerli enpoint on Chainstack, you can add the new network in MetaMaks. 
+
+Learn how to [add new endpoints to your MetaMask](https://chainstack.com/reliable-transactions-with-chainstack/) with this article about fault-proof transactions. 
+
+### Deploy the contract using Remix
+
+Now we are all set up to deploy and test our contract. 
+
+To deploy follow these steps:
+
+- Go on [Remix](https://remix.ethereum.org/).
+- Create a new file, we'll name it ```DetermineAddress.sol```.
+
+![image](https://user-images.githubusercontent.com/99700157/179084961-71b92eee-9a35-4c1e-aeb7-19bde99e8a2d.png)
+
+- Go on the compiler tab on the left, and choose the adeuqate version. 
+
+![image](https://user-images.githubusercontent.com/99700157/179085299-31a1095b-f73a-4f84-880f-e0b94191827a.png)
+
+- 
