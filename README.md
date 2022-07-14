@@ -100,3 +100,5 @@ function deploySimpleContract(bytes32 salt) public {
     require(address(d) == predictedAddress);        
 }
 ```
+
+## Deploy and test this smart contract
