@@ -103,7 +103,7 @@ function deploySimpleContract(bytes32 salt) public {
 
 ## Deploy and test this smart contract
 
-To test it, we can deploy this contract on the Goerli testet using remix. First of all, we'll need to have a Goerli endpoint to use in MetaMask. 
+To test it, we can deploy this contract on the Avalanche Fuji testet using remix. First of all, we'll need to have a Fuji endpoint to use in MetaMask. 
 
 We can, of course, do this with [Chainstack](https://chainstack.com/)! You can deploy nodes on mainets and testnets on many EVM protocols.
 
@@ -115,9 +115,11 @@ Follow these steps to sign up on Chainstack, deploy a node, and find your endpoi
 1. [Deploy a node](https://docs.chainstack.com/platform/join-a-public-network).
 1. [View node access and credentials](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
-After you have access to your Goerli enpoint on Chainstack, you can add the new network in MetaMaks. 
+After you have access to your Fuji enpoint on Chainstack, you can add the new network in MetaMaks. 
 
 Learn how to [add new endpoints to your MetaMask](https://chainstack.com/reliable-transactions-with-chainstack/) with this article about fault-proof transactions. 
+
+Once you have access to the Fuji testnet, you'll need some testnet AVAX. Get some at the [Avalanche Fuji faucet](https://faucet.avax.network/)
 
 ### Deploy the contract using Remix
 
@@ -132,6 +134,16 @@ To deploy follow these steps:
 
 - Go on the compiler tab on the left, and choose the adeuqate version. 
 
-![image](https://user-images.githubusercontent.com/99700157/179085299-31a1095b-f73a-4f84-880f-e0b94191827a.png)
+![image](https://user-images.githubusercontent.com/99700157/179293940-14a394e3-b0a0-41bb-821f-ac94031a6fcc.png)
 
-- 
+Then you can click on the "Compile" button. You'll see a green checkmark if the contract was compiled successfully.
+
+![image](https://user-images.githubusercontent.com/99700157/179294334-6d0b36a1-946c-443a-80e4-d54b0f15c6f8.png)
+
+Once it is compiled correctly, go to the Deploy tab, select "Injected web3" in the Environment (Make sure MetaMask has the Fuji network selected) and press the "Deploy" button. This will prompt MetaMask, where you can confirm the transaction. 
+
+![image](https://user-images.githubusercontent.com/99700157/179296144-5baf6c0d-5e60-47e9-ac9f-3f6edb24010f.png)
+
+After the transaction has been verified and the contract deployed, we can interact with it.
+
+### Interact with the smart contract in Remix
