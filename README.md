@@ -4,6 +4,19 @@ This repository explains how the CREATE2 functionality in Solidity can be used t
 
 This example is taken from the Solidity docs describing [salted contract creation](https://docs.soliditylang.org/en/latest/control-structures.html#salted-contract-creations-create2).
 
+## Table of contents
+
+  - [How is a smart contract address generated](#how-is-a-smart-contract-address-generated)
+    - [Traditional way](#traditional-way)
+    - [Salted contract creation](#salted-contract-creation)
+  - [The code](#the-code)
+    - [SimpleContract code](#simplecontract-code)
+    - [DetermineAddress code](#determineaddress-code)
+  - [Deploy and test this smart contract](#deploy-and-test-this-smart-contract)
+    - [Deploy a node on Chainstack](#deploy-a-node-on-chainstack)
+    - [Deploy the contract using Remix](#deploy-the-contract-using-remix)
+    - [Interact with the smart contract in Remix](#interact-with-the-smart-contract-in-remix)
+
 ## How is a smart contract address generated
 
 ### Traditional way 
