@@ -158,5 +158,3 @@ Once it is compiled correctly, go to the Deploy tab, select "Injected web3" in t
 ![image](https://user-images.githubusercontent.com/99700157/179296144-5baf6c0d-5e60-47e9-ac9f-3f6edb24010f.png)
 
 After the transaction has been verified and the contract deployed, we can interact with it.
-
-### Interact with the smart contract in Remix
